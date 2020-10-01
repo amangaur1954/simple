@@ -10,9 +10,9 @@ int main()
 
     for(int i = 1; i <= rows; ++i)
     {
-        for(int j = 1; j <= rows; ++j)
+        for(int j = 1; j <= i; ++j)
         {
-            cout << j+1 << " ";
+            cout << j << " ";
         }
         cout << "\n";
     }
